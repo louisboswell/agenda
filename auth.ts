@@ -28,6 +28,7 @@ const authConfig: NextAuthConfig = {
   providers,
   pages: {
     signIn: "/signin",
+    error: "/error",
   },
   callbacks: {
     /**
